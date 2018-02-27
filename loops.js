@@ -8,6 +8,6 @@ for (let i = 0; i < 25; i++){
     array.push(`I am ${i+1} strange loops.`)
     i++
   }
-  return array;
   }
+  return array;
 }
