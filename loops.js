@@ -11,14 +11,12 @@ for (let i = 0; i < 25; i++){
 }
 
 function whileLoop(n){
-let countdown = n;
-  while (n > 0){
-    else{
+  let countdown = n;
+    while (n > 0){
       console.log(--countdown)
       n--
-  if (n === 0){
-    console.log ("done")
+    if (n === 0){
+      console.log ("done")
     }
   }
-}
 }
