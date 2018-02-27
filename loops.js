@@ -12,13 +12,13 @@ for (let i = 0; i < 25; i++){
 
 function whileLoop(n){
 let countdown = n;
-  while (n > 0){
-    if (n === 0){
-      console.log ("done")
-    }
-    else{
-    console.log(--countdown)
-    n--
+  if (n === 0){
+    console.log ("done")
   }
+  else{
+    while (n>0){
+      console.log(--countdown)
+      n--
+    }
   }
 }
