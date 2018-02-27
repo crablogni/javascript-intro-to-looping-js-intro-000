@@ -1,8 +1,13 @@
 function forLoop(array){
-  var array = []
 for (let i = 0; i < 25; i++){
-    array.push(`I am a strange loop`)
+  if (i === 0){
+    array.push(`I am 1 a strange loop.`)
     i++
   }
-  return [array, i]
+  else {
+    array.push(`I am ${i} strange loops.`)
+    i++
   }
+  return array[i];
+  }
+}
