@@ -5,7 +5,7 @@ for (let i = 0; i < 25; i++){
     i++
   }
   else{
-    array.push(`I am ${i+2} strange loops.`)
+    array.push(`I am ${i+1} strange loops.`)
     i++
   }
   return array;
