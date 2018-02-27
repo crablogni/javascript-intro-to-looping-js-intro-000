@@ -9,3 +9,11 @@ for (let i = 0; i < 25; i++){
   }
   return array;
 }
+
+function whileLoop(n){
+let countdown = n;
+  while (n > 0){
+    console.log(--countdown)
+    n--
+  }
+}
