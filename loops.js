@@ -4,8 +4,8 @@ for (let i = 0; i < 25; i++){
     array.push(`I am 1 a strange loop.`)
     i++
   }
-  else if{
-    array.push(`I am ${i} strange loops.`)
+  else{
+    array.push(`I am ${i+2} strange loops.`)
     i++
   }
   return array;
